@@ -7,5 +7,9 @@
       scrollDocsDown = "<C-l>";
       scrollDocsUp = "<C-h>";
     };
+    sources = {
+      nvim-cmp = null;
+      path = "[Path]";
+    };
   };
 }
