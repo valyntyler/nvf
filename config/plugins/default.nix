@@ -5,6 +5,7 @@
     ./lsp.nix
     ./luasnip.nix
     ./oil.nix
+    ./telescope.nix
     ./treesitter.nix
   ];
 }
