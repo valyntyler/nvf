@@ -2,6 +2,7 @@
   imports = [
     ./languages.nix
     ./theme.nix
+    ./ui.nix
   ];
 
   config.vim.options = {
