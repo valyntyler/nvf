@@ -6,6 +6,7 @@
     ./cmp.nix
     ./conform.nix
     ./fidget.nix
+    ./indent.nix
     ./lsp.nix
     ./lualine.nix
     ./luasnip.nix
