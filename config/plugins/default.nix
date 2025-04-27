@@ -11,5 +11,6 @@
     ./oil.nix
     ./telescope.nix
     ./treesitter.nix
+    ./whichkey.nix
   ];
 }
