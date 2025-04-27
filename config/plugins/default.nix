@@ -1,6 +1,7 @@
 {
   imports = [
     ./alpha.nix
+    ./automaton.nix
     ./autopairs.nix
     ./cmp.nix
     ./conform.nix
