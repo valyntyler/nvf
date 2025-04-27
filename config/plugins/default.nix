@@ -11,6 +11,7 @@
     ./luasnip.nix
     ./neotree.nix
     ./oil.nix
+    ./project.nix
     ./telescope.nix
     ./treesitter.nix
     ./whichkey.nix
