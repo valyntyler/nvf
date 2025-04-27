@@ -12,6 +12,7 @@
     ./neotree.nix
     ./oil.nix
     ./project.nix
+    ./surround.nix
     ./telescope.nix
     ./treesitter.nix
     ./whichkey.nix
