@@ -7,6 +7,7 @@
     ./conform.nix
     ./fidget.nix
     ./lsp.nix
+    ./lualine.nix
     ./luasnip.nix
     ./neotree.nix
     ./oil.nix
