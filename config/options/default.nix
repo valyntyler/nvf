@@ -10,5 +10,7 @@
 
     shiftwidth = 2;
     tabstop = 2;
+
+    showmode = false;
   };
 }
