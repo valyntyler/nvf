@@ -7,6 +7,7 @@
     ./conform.nix
     ./fidget.nix
     ./fugitive.nix
+    ./gitsigns.nix
     ./indent.nix
     ./lsp.nix
     ./lualine.nix
