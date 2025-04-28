@@ -1,5 +1,6 @@
 {
   imports = [
+    ./diagnostics.nix
     ./languages.nix
     ./theme.nix
     ./ui.nix
