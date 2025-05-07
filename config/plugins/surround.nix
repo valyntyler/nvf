@@ -1,3 +1,6 @@
 {
-  config.vim.utility.surround.enable = true;
+  config.vim.utility.surround = {
+    enable = true;
+    useVendoredKeybindings = false;
+  };
 }
