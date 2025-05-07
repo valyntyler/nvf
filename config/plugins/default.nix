@@ -19,5 +19,6 @@
     ./telescope.nix
     ./treesitter.nix
     ./whichkey.nix
+    ./scrolleof.nix
   ];
 }
