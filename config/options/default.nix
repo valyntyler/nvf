@@ -7,7 +7,7 @@
   ];
 
   config.vim.options = {
-    scrolloff = 12;
+    scrolloff = 16;
 
     shiftwidth = 2;
     tabstop = 2;
