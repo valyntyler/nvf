@@ -6,6 +6,8 @@
     ./ui.nix
   ];
 
+  config.vim.undoFile.enable = true;
+
   config.vim.options = {
     scrolloff = 999;
 
