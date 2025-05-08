@@ -6,8 +6,8 @@ final: prev: {
       src = final.fetchFromGitHub {
         owner = "Aasim-A";
         repo = "scrollEOF.nvim";
-        rev = "a186f695b500e9f0b569102a4a5e8a255cd0d198";
-        hash = "sha256-MHa53sHrqSrIKrWjM1Nqz9Lr3TWYGFLXZH6LGER0b18=";
+        rev = "bf2714c64c2ac2b701b4aa1d70aa25243b702e80";
+        hash = "sha256-egUZYybiakDs0AZY1h02qBQtIXiUQY8JTy4YjBjUkiQ=";
       };
       meta = {
         description = "Scroll past the end of file just like scrolloff option";
