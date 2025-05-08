@@ -1,7 +1,7 @@
 {
   imports = [
-    ./options
     ./plugins
     ./keymaps.nix
+    ./options.nix
   ];
 }
