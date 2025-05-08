@@ -15,10 +15,10 @@
     ./neotree.nix
     ./oil.nix
     ./project.nix
+    ./scrolleof.nix
     ./surround.nix
     ./telescope.nix
     ./treesitter.nix
     ./whichkey.nix
-    ./scrolleof.nix
   ];
 }
