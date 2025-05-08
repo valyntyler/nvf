@@ -1,7 +1,8 @@
 final: prev: {
   vimPlugins = prev.vimPlugins // {
     scrolleof = final.vimUtils.buildVimPlugin {
-      name = "scrollEOF";
+      pname = "scrolleof";
+      version = "1.2.7";
       src = final.fetchFromGitHub {
         owner = "Aasim-A";
         repo = "scrollEOF.nvim";
