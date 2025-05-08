@@ -11,7 +11,10 @@
           system = "x86_64-linux";
           overlays = [(import ./overlay/scrolleof.nix)];
         };
-        modules = [./config];
+        modules = [
+          ./config
+          ./modules
+        ];
       })
       .neovim;
   };
