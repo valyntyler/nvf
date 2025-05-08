@@ -9,7 +9,7 @@
           pattern = '*',
           insert_mode = false,
           floating = false,
-          disabled_filetypes = { '' },
+          disabled_filetypes = { '', 'oil' },
           disabled_modes = {},
         })
       ";
