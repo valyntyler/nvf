@@ -1,6 +1,6 @@
 {
-  config.vim.scroll.scrolleof= {
+  config.vim.scroll.scrolleof = {
     enable = true;
-    disabled_filetypes = [ "" "oil" ];
+    disabled_filetypes = ["" "oil"];
   };
 }
