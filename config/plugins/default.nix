@@ -19,6 +19,7 @@
     ./surround.nix
     ./telescope.nix
     ./treesitter.nix
+    ./vim-tmux.nix
     ./whichkey.nix
   ];
 }
