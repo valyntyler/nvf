@@ -15,11 +15,6 @@
       transparent = true;
     };
 
-    ui.breadcrumbs = {
-      enable = true;
-      navbuddy.enable = true;
-    };
-
     undoFile.enable = true;
 
     languages = {
