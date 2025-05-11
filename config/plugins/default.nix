@@ -18,6 +18,7 @@
     ./scrolleof.nix
     ./surround.nix
     ./telescope.nix
+    ./todo-comments.nix
     ./treesitter.nix
     ./vim-tmux.nix
     ./whichkey.nix
