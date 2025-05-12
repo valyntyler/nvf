@@ -27,6 +27,9 @@
       markdown.enable = true;
       nix.enable = true;
       nu.enable = true;
+      ts.enable = true;
+      css.enable = true;
+      html.enable = true;
       rust = {
         enable = true;
         crates.enable = true;
