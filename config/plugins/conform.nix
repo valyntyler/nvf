@@ -3,6 +3,7 @@
     setupOpts = {
       format_after_save = null;
       format_on_save = null;
+      formatters_by_ft = {javascript = ["prettierd" "prettier"];};
     };
   };
 }
