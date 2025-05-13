@@ -1,7 +1,7 @@
 {
   vim.lsp = {
     enable = true;
-    formatOnSave = false;
+    formatOnSave = true;
     lspkind.enable = true;
     trouble.enable = true;
   };
