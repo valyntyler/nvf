@@ -20,7 +20,6 @@
     languages = {
       enableFormat = true;
       enableTreesitter = true;
-      enableLSP = true;
 
       go.enable = true;
       lua.enable = true;
