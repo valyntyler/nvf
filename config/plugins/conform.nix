@@ -6,7 +6,11 @@
         timeout_ms = 500;
         lsp_format = "fallback";
       };
-      formatters_by_ft = {javascript = ["prettierd" "prettier"];};
+      formatters_by_ft = {
+        css = ["prettierd" "prettier"];
+        html = ["prettierd" "prettier"];
+        javascript = ["prettierd" "prettier"];
+      };
     };
   };
 }
