@@ -8,6 +8,7 @@
     ./fidget.nix
     ./fugitive.nix
     ./gitsigns.nix
+    ./harpoon.nix
     ./indent.nix
     ./lsp.nix
     ./lualine.nix
