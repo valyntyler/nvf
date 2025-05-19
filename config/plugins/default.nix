@@ -3,6 +3,7 @@
     ./alpha.nix
     ./automaton.nix
     ./autopairs.nix
+    ./avante.nix
     ./cmp.nix
     ./conform.nix
     ./fidget.nix
