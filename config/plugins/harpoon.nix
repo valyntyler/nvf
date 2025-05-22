@@ -2,12 +2,12 @@
   config.vim.navigation.harpoon = {
     enable = true;
     mappings = {
-      file1 = "<Leader>hh";
-      file2 = "<Leader>hj";
-      file3 = "<Leader>hk";
-      file4 = "<Leader>hl";
-      listMarks = "<Leader>hq";
-      markFile = "<Leader>ha";
+      file1 = "<C-j>";
+      file2 = "<C-k>";
+      file3 = "<C-l>";
+      file4 = "<C-;>";
+      listMarks = "<C-e>";
+      markFile = "<A-a>";
     };
   };
 }
