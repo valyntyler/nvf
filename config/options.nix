@@ -29,6 +29,7 @@
       ts.enable = true;
       css.enable = true;
       html.enable = true;
+      bash.enable = true;
       rust = {
         enable = true;
         crates.enable = true;
