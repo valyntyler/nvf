@@ -40,5 +40,13 @@
       enable = true;
       config.signs = true;
     };
+
+    ui.breadcrumbs = {
+      enable = true;
+      lualine.winbar = {
+        enable = true;
+        alwaysRender = false;
+      };
+    };
   };
 }
