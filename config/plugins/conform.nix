@@ -10,6 +10,7 @@
         css = ["prettierd" "prettier"];
         html = ["prettierd" "prettier"];
         javascript = ["prettierd" "prettier"];
+        gdscript = ["gdformat"];
       };
     };
   };
