@@ -9,6 +9,7 @@
     ./fidget.nix
     ./fugitive.nix
     ./gitsigns.nix
+    ./godot.nix
     ./harpoon.nix
     ./indent.nix
     ./lsp.nix
