@@ -23,6 +23,7 @@
       enableFormat = true;
       enableTreesitter = true;
 
+      clang.enable = true;
       go.enable = true;
       lua.enable = true;
       markdown.enable = true;
