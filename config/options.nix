@@ -33,6 +33,7 @@
       css.enable = true;
       html.enable = true;
       bash.enable = true;
+      php.enable = true;
       rust = {
         enable = true;
         crates.enable = true;
