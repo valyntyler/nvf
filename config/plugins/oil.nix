@@ -12,7 +12,8 @@
           function(name, bufnr)
             local dot = name:match("^%.")
             local uid = name:match("(.+%.%w+)%.uid$")
-            return dot ~= nil or uid ~= nil
+            local import = name:match("(.+%.%w+)%.import$")
+            return dot ~= nil or uid ~= nil or import ~= nil
           end
         '';
       };
