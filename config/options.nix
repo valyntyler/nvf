@@ -24,6 +24,7 @@
       enableTreesitter = true;
 
       clang.enable = true;
+      csharp.enable = true;
       go.enable = true;
       lua.enable = true;
       markdown.enable = true;
