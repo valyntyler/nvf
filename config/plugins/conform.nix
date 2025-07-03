@@ -8,7 +8,6 @@
       };
       formatters_by_ft = {
         css = ["prettierd" "prettier"];
-        html = ["prettierd" "prettier"];
         javascript = ["prettierd" "prettier"];
         gdscript = ["gdformat"];
         php = ["php-cs-fixer"];
