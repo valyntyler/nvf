@@ -3,6 +3,7 @@
     enable = true;
     formatOnSave = true;
     lspSignature.enable = true;
+    lspconfig.enable = true;
     lspkind.enable = true;
     trouble.enable = true;
   };
