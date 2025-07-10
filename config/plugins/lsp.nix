@@ -13,5 +13,15 @@
       filetypes = ["html"];
       root_markers = ["index.html"];
     };
+    emmet = {
+      enable = true;
+      cmd = ["${pkgs.emmet-ls}/bin/emmet-ls" "--stdio"];
+      filetypes = [
+        "html"
+        "css"
+        "javascript"
+        "typescript"
+      ];
+    };
   };
 }
