@@ -2,6 +2,7 @@
   vim.lsp = {
     enable = true;
     formatOnSave = true;
+    lspSignature.enable = true;
     lspkind.enable = true;
     trouble.enable = true;
   };
