@@ -6,6 +6,7 @@
     lspconfig.enable = true;
     lspkind.enable = true;
     trouble.enable = true;
+    otter-nvim.enable = true;
   };
   vim.lsp.servers = {
     html = {
