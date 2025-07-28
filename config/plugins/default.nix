@@ -22,6 +22,7 @@
     ./surround.nix
     ./telescope.nix
     ./todo-comments.nix
+    ./trailspace.nix
     ./treesitter.nix
     ./vim-tmux.nix
     ./whichkey.nix
