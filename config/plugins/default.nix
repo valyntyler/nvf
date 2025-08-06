@@ -5,6 +5,7 @@
     ./autopairs.nix
     ./avante.nix
     ./cmp.nix
+    ./colorful-menu.nix
     ./conform.nix
     ./fidget.nix
     ./fugitive.nix
