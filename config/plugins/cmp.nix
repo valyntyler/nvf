@@ -12,4 +12,11 @@
       path = "[Path]";
     };
   };
+  config.vim.luaConfigRC.nvim-cmp = ''
+    require('cmp').setup({
+      experimental = {
+        ghost_text = true
+      }
+    })
+  '';
 }
