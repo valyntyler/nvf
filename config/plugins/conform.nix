@@ -11,7 +11,6 @@
         javascript = ["prettierd" "prettier"];
         gdscript = ["gdformat"];
         php = ["php-cs-fixer"];
-        kdl = ["kdlfmt"];
       };
       formatters = {
         "php-cs-fixer" = {
