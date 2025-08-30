@@ -18,6 +18,7 @@
     ./luasnip.nix
     ./neotree.nix
     ./oil.nix
+    ./opencode.nix
     ./project.nix
     ./scrolleof.nix
     ./surround.nix
