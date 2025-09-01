@@ -27,7 +27,10 @@
       csharp.enable = true;
       go.enable = true;
       lua.enable = true;
-      markdown.enable = true;
+      markdown = {
+        enable = true;
+        format.enable = false;
+      };
       nix.enable = true;
       nu.enable = true;
       ts.enable = true;
