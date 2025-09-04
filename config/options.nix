@@ -23,6 +23,7 @@
       enableFormat = true;
       enableTreesitter = true;
 
+      assembly.enable = true;
       clang.enable = true;
       csharp.enable = true;
       go.enable = true;
