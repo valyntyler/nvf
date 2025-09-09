@@ -30,7 +30,7 @@
       lua.enable = true;
       markdown = {
         enable = true;
-        format.enable = false;
+        format.enable = true;
       };
       nix.enable = true;
       nu.enable = true;
