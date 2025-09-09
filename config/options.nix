@@ -43,7 +43,10 @@
         enable = true;
         crates.enable = true;
       };
-      python.enable = true;
+      python = {
+        enable = true;
+        format.enable = false;
+      };
     };
 
     diagnostics = {
