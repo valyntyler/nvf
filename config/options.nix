@@ -45,7 +45,7 @@
       };
       python = {
         enable = true;
-        format.enable = false;
+        format.enable = true;
         lsp.server = "pyright";
       };
     };
