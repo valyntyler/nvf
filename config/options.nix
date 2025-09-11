@@ -22,7 +22,10 @@
     languages = {
       enableFormat = true;
       enableTreesitter = true;
-
+      nix = {
+        enable = true;
+        extraDiagnostics.enable = true;
+      };
       assembly.enable = true;
       clang.enable = true;
       csharp.enable = true;
@@ -32,7 +35,6 @@
         enable = true;
         format.enable = true;
       };
-      nix.enable = true;
       nu.enable = true;
       ts.enable = true;
       css.enable = true;
@@ -41,7 +43,7 @@
       php.enable = true;
       rust = {
         enable = true;
-        crates.enable = true;
+        crates.enable = false;
       };
       python = {
         enable = true;
