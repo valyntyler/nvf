@@ -3,7 +3,6 @@
     ./alpha.nix
     ./automaton.nix
     ./autopairs.nix
-    ./avante.nix
     ./cmp.nix
     ./colorful-menu.nix
     ./conform.nix
