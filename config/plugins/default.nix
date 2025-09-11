@@ -20,6 +20,7 @@
     ./opencode.nix
     ./project.nix
     ./scrolleof.nix
+    ./snacks.nix
     ./surround.nix
     ./telescope.nix
     ./todo-comments.nix
