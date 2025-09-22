@@ -13,6 +13,10 @@
         php = ["php-cs-fixer"];
       };
       formatters = {
+        "hindent" = {
+          command = "${pkgs.haskellPackages.hindent}/bin/hindent";
+          stdin = true;
+        };
         "php-cs-fixer" = {
           command = "${pkgs.php83Packages.php-cs-fixer}/bin/php-cs-fixer";
           args = [

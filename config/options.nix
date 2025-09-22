@@ -26,6 +26,7 @@
         enable = true;
         extraDiagnostics.enable = true;
       };
+      haskell.enable = true;
       assembly.enable = true;
       clang.enable = true;
       csharp.enable = true;
