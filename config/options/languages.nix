@@ -36,6 +36,7 @@
     };
     sql = {
       enable = true;
+      format.enable = false;
       lsp = {
         enable = false;
         package = ["${pkgs.sqls}/bin/sqls"];
