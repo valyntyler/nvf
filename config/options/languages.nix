@@ -16,6 +16,7 @@
     nix.enable = true;
     nu.enable = true;
     php.enable = true;
+    sql.enable = true;
     ts.enable = true;
 
     markdown = {
