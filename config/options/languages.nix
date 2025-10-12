@@ -16,7 +16,6 @@
     nix.enable = true;
     nu.enable = true;
     php.enable = true;
-    sql.enable = true;
     ts.enable = true;
 
     markdown = {
@@ -34,6 +33,10 @@
     rust = {
       enable = true;
       crates.enable = false;
+    };
+    sql = {
+      enable = true;
+      lsp.package = ["${pkgs.sqls}/bin/sqls"];
     };
   };
 }
