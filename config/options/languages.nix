@@ -36,7 +36,10 @@
     };
     sql = {
       enable = true;
-      lsp.package = ["${pkgs.sqls}/bin/sqls"];
+      lsp = {
+        enable = false;
+        package = ["${pkgs.sqls}/bin/sqls"];
+      };
     };
   };
 }
