@@ -27,6 +27,20 @@
       action = "\"+p";
     }
     {
+      key = "<leader>p";
+      desc = "Prev buffer";
+      mode = ["n" "v"];
+      silent = true;
+      action = ":bp<CR>";
+    }
+    {
+      key = "<leader>n";
+      desc = "Next buffer";
+      mode = ["n" "v"];
+      silent = true;
+      action = ":bn<CR>";
+    }
+    {
       key = "<leader>?";
       mode = "n";
       silent = true;
