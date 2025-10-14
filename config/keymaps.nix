@@ -21,13 +21,6 @@
     }
     {
       key = "<leader>p";
-      desc = "Paste from clipboard";
-      mode = ["n" "v"];
-      silent = true;
-      action = "\"+p";
-    }
-    {
-      key = "<leader>p";
       desc = "Prev buffer";
       mode = ["n" "v"];
       silent = true;
