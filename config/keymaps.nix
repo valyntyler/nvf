@@ -13,6 +13,20 @@
       action = ":Neotree toggle right<CR>";
     }
     {
+      key = "<leader>y";
+      desc = "Copy to clipboard";
+      mode = ["n" "v"];
+      silent = true;
+      action = "\"+y";
+    }
+    {
+      key = "<leader>p";
+      desc = "Paste from clipboard";
+      mode = ["n" "v"];
+      silent = true;
+      action = "\"+p";
+    }
+    {
       key = "<leader>?";
       mode = "n";
       silent = true;
