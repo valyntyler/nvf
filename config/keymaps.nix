@@ -21,7 +21,14 @@
     }
     {
       key = "<leader>p";
-      desc = "Prev buffer";
+      desc = "Paste from clipboard";
+      mode = ["n" "v"];
+      silent = true;
+      action = "\"+p";
+    }
+    {
+      key = "<leader>b";
+      desc = "Back to last buffer";
       mode = ["n" "v"];
       silent = true;
       action = ":bp<CR>";
