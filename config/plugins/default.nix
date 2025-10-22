@@ -26,6 +26,7 @@
     ./todo-comments.nix
     ./trailspace.nix
     ./treesitter.nix
+    ./undotree.nix
     ./vim-tmux.nix
     ./whichkey.nix
   ];
