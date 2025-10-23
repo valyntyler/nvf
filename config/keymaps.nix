@@ -13,6 +13,13 @@
       action = ":Neotree toggle right<CR>";
     }
     {
+      key = "<leader>ga";
+      desc = "Grab entire buffer";
+      mode = ["n" "v"];
+      silent = true;
+      action = ":%y+<CR>";
+    }
+    {
       key = "<leader>y";
       desc = "Copy to clipboard";
       mode = ["n" "v"];
