@@ -13,6 +13,13 @@
       action = ":Neotree toggle right<CR>";
     }
     {
+      key = "<leader>sa";
+      desc = "Select entire buffer";
+      mode = ["n" "v"];
+      silent = true;
+      action = "ggVG";
+    }
+    {
       key = "<leader>ga";
       desc = "Grab entire buffer";
       mode = ["n" "v"];
