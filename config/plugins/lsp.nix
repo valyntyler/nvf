@@ -13,7 +13,10 @@
       enable = true;
       cmd = ["${pkgs.vscode-langservers-extracted}/bin/vscode-html-language-server" "--stdio"];
       init_options.provideFormatter = true;
-      filetypes = ["html"];
+      filetypes = [
+        "html"
+        "vue"
+      ];
     };
     emmet-ls = {
       enable = true;
@@ -23,7 +26,13 @@
         "css"
         "javascript"
         "typescript"
+        "vue"
       ];
     };
+    # vue-language-server = {
+    #   enable = true;
+    #   cmd = ["${pkgs.vue-language-server}/bin/vue-language-server" "--stdio"];
+    #   filetypes = ["vue"];
+    # };
   };
 }
