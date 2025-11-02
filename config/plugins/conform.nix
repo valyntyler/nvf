@@ -7,10 +7,13 @@
         lsp_format = "fallback";
       };
       formatters_by_ft = {
+        # kdl = ["kdlfmt"];
+        php = ["php-cs-fixer"];
+        vue = ["prettierd" "prettier"];
         css = ["prettierd" "prettier"];
         javascript = ["prettierd" "prettier"];
+        typescript = ["prettierd" "prettier"];
         gdscript = ["gdformat"];
-        php = ["php-cs-fixer"];
       };
       formatters = {
         "php-cs-fixer" = {
