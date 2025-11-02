@@ -25,6 +25,7 @@
         type = "prettierd";
         package = pkgs.prettierd;
       };
+      extensions.markview-nvim.enable = true;
     };
     python = {
       enable = true;
