@@ -10,9 +10,6 @@
         # kdl = ["kdlfmt"];
         php = ["php-cs-fixer"];
         vue = ["prettier"];
-        css = ["prettier"];
-        javascript = ["prettier"];
-        typescript = ["prettier"];
         gdscript = ["gdformat"];
       };
       formatters = {
