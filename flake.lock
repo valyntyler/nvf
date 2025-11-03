@@ -113,15 +113,15 @@
       "locked": {
         "lastModified": 1761920420,
         "narHash": "sha256-6kYN+5S+55iFete09uvoTGDo6RPPcE1owOZcdAs7dPo=",
-        "owner": "notashelf",
-        "repo": "nvf",
+        "owner": "valyntyler",
+        "repo": "fork-nvf",
         "rev": "e6b2d28159a61b258eb53b84dc114a2db93a022f",
         "type": "github"
       },
       "original": {
-        "owner": "notashelf",
+        "owner": "valyntyler",
         "ref": "v0.8",
-        "repo": "nvf",
+        "repo": "fork-nvf",
         "type": "github"
       }
     },

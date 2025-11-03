@@ -1,7 +1,7 @@
 {
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
-    nvf.url = "github:notashelf/nvf/v0.8";
+    nvf.url = "github:valyntyler/fork-nvf/v0.8";
     flake-utils.url = "github:numtide/flake-utils";
   };
 
