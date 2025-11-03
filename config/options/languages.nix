@@ -33,7 +33,7 @@
     };
     rust = {
       enable = true;
-      crates.enable = false;
+      extensions.crates-nvim.enable = false;
     };
     sql = {
       enable = true;
