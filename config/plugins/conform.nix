@@ -9,10 +9,10 @@
       formatters_by_ft = {
         # kdl = ["kdlfmt"];
         php = ["php-cs-fixer"];
-        vue = ["prettierd" "prettier"];
-        css = ["prettierd" "prettier"];
-        javascript = ["prettierd" "prettier"];
-        typescript = ["prettierd" "prettier"];
+        vue = ["prettier"];
+        css = ["prettier"];
+        javascript = ["prettier"];
+        typescript = ["prettier"];
         gdscript = ["gdformat"];
       };
       formatters = {
