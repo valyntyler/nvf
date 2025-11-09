@@ -11,13 +11,16 @@
     css.enable = true;
     go.enable = true;
     haskell.enable = true;
-    html.enable = true;
     lua.enable = true;
     nix.enable = true;
     nu.enable = true;
     php.enable = true;
     ts.enable = true;
 
+    html = {
+      enable = true;
+      lsp.servers = ["superhtml" "emmet-ls"];
+    };
     markdown = {
       enable = true;
       format = {
