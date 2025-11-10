@@ -11,6 +11,7 @@
     css.enable = true;
     go.enable = true;
     haskell.enable = true;
+    java.enable = true;
     lua.enable = true;
     nix.enable = true;
     nu.enable = true;
