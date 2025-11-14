@@ -28,6 +28,7 @@
     ./trailspace.nix
     ./treesitter.nix
     ./undotree.nix
+    ./vim-be-good.nix
     ./vim-tmux.nix
     ./whichkey.nix
   ];
