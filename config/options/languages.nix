@@ -6,7 +6,6 @@
 
     assembly.enable = true;
     bash.enable = true;
-    clang.enable = true;
     csharp.enable = true;
     css.enable = true;
     go.enable = true;
@@ -18,6 +17,10 @@
     php.enable = true;
     ts.enable = true;
 
+    clang = {
+      enable = true;
+      lsp.servers = ["ccls"];
+    };
     html = {
       enable = true;
       lsp.servers = ["superhtml" "emmet-ls"];
