@@ -28,7 +28,7 @@
     };
     python = {
       enable = true;
-      lsp.servers = "pyright";
+      lsp.servers = ["pyright"];
     };
     rust = {
       enable = true;
