@@ -12,6 +12,7 @@
     haskell.enable = true;
     java.enable = true;
     lua.enable = true;
+    markdown.enable = true;
     nix.enable = true;
     nu.enable = true;
     php.enable = true;
@@ -24,15 +25,6 @@
     html = {
       enable = true;
       lsp.servers = ["superhtml" "emmet-ls"];
-    };
-    markdown = {
-      enable = true;
-      format = {
-        enable = true;
-        type = "prettierd";
-        package = pkgs.prettierd;
-      };
-      extensions.markview-nvim.enable = false;
     };
     python = {
       enable = true;
