@@ -111,16 +111,16 @@
         "systems": "systems_2"
       },
       "locked": {
-        "lastModified": 1762704356,
-        "narHash": "sha256-dyKwkNkQVU8alTxOIokbYA6rJdFxxzrK54mwLtK7+TA=",
+        "lastModified": 1763581853,
+        "narHash": "sha256-Th/hOz6Irws1Ej6YxSmiZn+kKLnYl3UsWQHbMlUHM1s=",
         "owner": "valyntyler",
         "repo": "fork-nvf",
-        "rev": "6ccf85f5ae48088e32366a9dfe4d08763a58d1c8",
+        "rev": "5ce56cdfe03494db3a3d5bdecf1f92a8ecb3fbad",
         "type": "github"
       },
       "original": {
         "owner": "valyntyler",
-        "ref": "emmet-ls",
+        "ref": "v0.8",
         "repo": "fork-nvf",
         "type": "github"
       }
