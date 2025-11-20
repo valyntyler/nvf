@@ -111,11 +111,11 @@
         "systems": "systems_2"
       },
       "locked": {
-        "lastModified": 1763645536,
-        "narHash": "sha256-8+GaLKo38FhoiJhgNmZW4gZp9b+28uME9XRu3Ki2m88=",
+        "lastModified": 1763648730,
+        "narHash": "sha256-wuPf8LyEsDtByMEn0HOBjdO15RE8piO2q2UPVqREd74=",
         "owner": "valyntyler",
         "repo": "fork-nvf",
-        "rev": "6f458a4aea905e6a7bc04e3d83b72d87c44d6cc6",
+        "rev": "55d70dd363f305ac4dc6b66d37eaefc5e04389e8",
         "type": "github"
       },
       "original": {
