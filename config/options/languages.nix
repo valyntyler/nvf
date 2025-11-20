@@ -27,10 +27,10 @@
     };
     nix = {
       enable = true;
-      lsp = {
-        enable = true;
-        servers = ["nixd"];
-      };
+      # lsp = {
+      #   enable = true;
+      #   servers = ["nixd"];
+      # };
     };
     python = {
       enable = true;
