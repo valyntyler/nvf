@@ -13,7 +13,6 @@
     java.enable = true;
     lua.enable = true;
     markdown.enable = true;
-    nix.enable = true;
     nu.enable = true;
     php.enable = true;
     ts.enable = true;
@@ -25,6 +24,13 @@
     html = {
       enable = true;
       lsp.servers = ["superhtml" "emmet-ls"];
+    };
+    nix = {
+      enable = true;
+      lsp = {
+        enable = true;
+        servers = ["nixd"];
+      };
     };
     python = {
       enable = true;
