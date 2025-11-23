@@ -30,7 +30,7 @@
     	vim.fn.expand(vim.fn.stdpath("data") .. "/mason/packages/vue-language-server/node_modules/@vue/language-server")
 
     -- Set up ts_ls LSP with @vue/typescript-plugin
-    vim.lsp.config.ts_ls.setup({
+    vim.lsp.config.ts_ls = {
     	-- on_attach = nvlsp.on_attach,
     	-- on_init = nvlsp.on_init,
     	-- capabilities = nvlsp.capabilities,
@@ -65,7 +65,7 @@
     			},
     		},
     	},
-    })
+    }
   '';
 
   # vim.lsp.servers.vue_ls = {
