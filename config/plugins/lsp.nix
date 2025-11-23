@@ -66,6 +66,15 @@
     		},
     	},
     }
+    -- suppress "Failed to attach" errors globally
+    vim.notify = (function(orig_notify)
+      return function(msg, level, opts)
+        if type(msg) == "string" and msg:match("nvim%-navic: Failed to attach") then
+          return  -- ignore this specific message
+        end
+        return orig_notify(msg, level, opts)
+      end
+    end)(vim.notify)
   '';
 
   vim.lsp.servers.emmet-ls.filetypes = ["vue"];
