@@ -68,6 +68,7 @@
     }
   '';
 
+  vim.lsp.servers.emmet-ls.filetypes = ["vue"];
   # vim.lsp.servers.vue_ls = {
   #   enabled = true;
   #   cmd = ["${pkgs.lib.getExe pkgs.vue-language-server}" "--stdio"];
