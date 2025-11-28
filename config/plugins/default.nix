@@ -6,6 +6,7 @@
     ./cmp.nix
     ./colorful-menu.nix
     ./colorizer.nix
+    ./comment.nix
     ./conform.nix
     ./fidget.nix
     ./fugitive.nix
