@@ -21,19 +21,19 @@
 
     clang = {
       enable = true;
-      lsp.servers = ["ccls"];
+      # lsp.servers = ["ccls"];
     };
     html = {
       enable = true;
-      lsp.servers = ["superhtml" "emmet-ls"];
+      # lsp.servers = ["superhtml" "emmet-ls"];
     };
     python = {
       enable = true;
-      lsp.servers = ["pyright"];
+      # lsp.servers = ["pyright"];
     };
     rust = {
       enable = true;
-      extensions.crates-nvim.enable = false;
+      # extensions.crates-nvim.enable = false;
     };
     sql = {
       enable = true;
