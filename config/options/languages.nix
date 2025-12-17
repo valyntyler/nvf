@@ -37,7 +37,7 @@
       # extensions.crates-nvim.enable = false;
     };
     sql = {
-      enable = true;
+      enable = false;
       format.enable = false;
       extraDiagnostics.enable = false;
     };
