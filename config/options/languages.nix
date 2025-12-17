@@ -26,7 +26,7 @@
     };
     html = {
       enable = true;
-      # lsp.servers = ["superhtml" "emmet-ls"];
+      lsp.servers = ["superhtml" "emmet-ls"];
     };
     python = {
       enable = true;
