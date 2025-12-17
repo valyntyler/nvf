@@ -11,6 +11,7 @@
     go.enable = true;
     haskell.enable = true;
     java.enable = true;
+    just.enable = true;
     kotlin.enable = true;
     lua.enable = true;
     markdown.enable = true;
