@@ -19,6 +19,7 @@
     nu.enable = true;
     php.enable = true;
     ts.enable = true;
+    yaml.enable = true;
 
     clang = {
       enable = true;
