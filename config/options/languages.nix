@@ -19,16 +19,13 @@
     nix.enable = true;
     nu.enable = true;
     php.enable = true;
+    python.enable = true;
     ts.enable = true;
     yaml.enable = true;
 
     html = {
       enable = true;
       lsp.servers = ["superhtml" "emmet-ls"];
-    };
-    python = {
-      enable = true;
-      # lsp.servers = ["pyright"];
     };
     rust = {
       enable = true;
